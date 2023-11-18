@@ -1,0 +1,12 @@
+name = "smartgrade"
+main = "src/index.ts"
+compatibility_date = "2023-03-15"
+
+[[d1_databases]]
+binding = "DB" # i.e. available in your Worker on env.DB
+database_name = "smartgrade2"
+database_id = "6abb5c8c-3226-44ce-af84-9c4812a2e85a"
+
+# The necessary secrets are:
+# - PRIVATE_KEY
+# Run `echo <VALUE> | wrangler secret put <NAME>` for each of these
